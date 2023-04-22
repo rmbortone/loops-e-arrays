@@ -14,16 +14,26 @@ Tabuada de 5:
 ...
 5 X 10 = 50
 */
+
+// o usuário poderá escolher tabuada de qual numero e qual o tamanho da tabuada
+
 public class Ex5_Tabuada {
     public static void main(String[] args) {
+        
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Tabuada: ");
-        int tabuada = scan.nextInt();
+        double numeroEscolhido;
+        double contador = 0;
+        double tabuada = 0;
 
-        System.out.println("Tabuada de " + tabuada);
-        for(int i = 1; i <= 10; i = i + 1) {
-            System.out.println(tabuada + " X " + i + " = " + (tabuada*i));
+        System.out.println("Tabuada de qual numero: ");
+        numeroEscolhido = scan.nextInt();
+        System.out.println( "Qual o tamanho da tabuada?");
+        tabuada = scan.nextInt();
+
+        System.out.println("Tabuada de " + numeroEscolhido);
+        for(contador = 0; contador <= tabuada; contador = contador + 1) {
+            System.out.println(numeroEscolhido+ " X " + contador + " = " + (contador*numeroEscolhido));
         }
     }
 
