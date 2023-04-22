@@ -24,7 +24,7 @@ public class Ex2_Nota {
         while (true){ //entrada do nome do aluno
             System.out.println("Nome do aluno: ");
                 nome = scan.next();
-            System.out.println ("O nome do aluno é: " + nome + "?");
+            System.out.println ("O nome do aluno é: " + nome + "?" + " S = Sim e N = Não");
                 resposta = scan.next();
                 if (resposta.equals ("S")) break; // confirmando o nome do aluno
         }
@@ -37,7 +37,7 @@ public class Ex2_Nota {
                 nota = scan.nextInt();
             }
             else { //confirmando a nota do aluno
-                System.out.println("A nota do aluno " + nome + " é " + nota + "?");
+                System.out.println("A nota do aluno " + nome + " é " + nota + "?" + " S = Sim e N = Não");
                 resposta = scan.next();
                 if (resposta.equals ("S")) break;
             }
