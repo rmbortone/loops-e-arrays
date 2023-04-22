@@ -34,7 +34,7 @@ public class Ex2_Nota {
                 nota = scan.nextInt();
             if (nota < 0 || nota > 10){  // Limitando a nota de 0 à 10
                 System.out.println("Valor inválido! Favor escolher valores de 0 à 10.");
-             nota = scan.nextInt();
+                nota = scan.nextInt();
             }
             else { //confirmando a nota do aluno
                 System.out.println("A nota do aluno " + nome + " é " + nota + "?");
