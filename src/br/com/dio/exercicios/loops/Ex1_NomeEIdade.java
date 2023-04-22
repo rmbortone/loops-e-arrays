@@ -22,7 +22,7 @@ public class Ex1_NomeEIdade {
             System.out.println("Idade: ");
             idade = scan.nextInt();
 
-            System.out.println("Seus dados estão corretos?");
+            System.out.println("Seus dados estão corretos? Sim, Não");
             resposta = scan.next();
             if (resposta.equals ("Sim")) break; 
         }
